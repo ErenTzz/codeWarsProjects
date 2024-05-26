@@ -17,7 +17,7 @@ func getUserInput() int {
 	for {
 		fmt.Print("Kaç koyun saymak istediğinizi giriniz: ")
 		_, err := fmt.Scan(&input)// inputta herhangi bir hata olup olmadığını kontrol eder
-		if err != nil || input <= 0 {
+		if err != nil || input <= 0 { // eğer geçersiz bir giriş varsa veya giriş 0'dan küçük bir sayıysa diye kontrol ettim
 			fmt.Println("Geçersiz giriş. Lütfen pozitif bir tam sayı giriniz.")
 
 			var discard string //geçersiz girişi tutar
