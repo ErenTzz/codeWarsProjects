@@ -7,9 +7,9 @@ import (
 func main() {
 	sheepNumber := getUserInput()
 	for i := 1; i <= sheepNumber; i++ {
-		fmt.Printf("%d koyun... ", i)
+		fmt.Printf("%d koyun... ", i)// bu yapıda ise %d formatı i değeri kaç ise onu yazdırmamızı sağlıyor.
 	}
-	fmt.Println()
+	fmt.Println()// araya bir boşluk attım güzel dursun diye
 }
 
 func getUserInput() int {
