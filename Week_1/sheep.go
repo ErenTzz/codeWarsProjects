@@ -1,4 +1,4 @@
-package main
+package Week_1
 
 import (
 	"fmt"
